@@ -35,7 +35,8 @@ const DetailsPage = async ({
           <CardHeader>
             <CardTitle>User Not Found</CardTitle>
             <CardDescription>
-              Sorry, we could not find this user.
+              Sorry, we could not find this user. plese check the user ID and
+              try again.
             </CardDescription>
           </CardHeader>
           <CardContent>
