@@ -7,6 +7,7 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 
+//type definition for user object
 interface User {
   _id: string
   name: string
@@ -24,6 +25,7 @@ const DetailsPage = async ({
 }) => {
   const { userId } = await params
 
+  // Fetch user data from the backend API
   const res = await fetch(`http://localhost:5000/users/${userId}`, {
     cache: "no-store",
   })
